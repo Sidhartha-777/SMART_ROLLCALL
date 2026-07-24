@@ -11,7 +11,7 @@ def subject_card(name,code,section,stats=None,footer_callback=None):
         <div style="display:flex; gap:8px; flex-wrap:wrap;">
         """
         for label,value in stats:
-            html+= f'<div style="background:#EB459E10; padding:5px 12px; border-radius:12px; font-size:0.9rem;"> <b>{value}</b> {label} </div>'
+            html+= f'<div style="background:#EB459E10; padding:5px 12px; border-radius:12px; font-size:0.9rem; color:black;"> <b>{value}</b> {label} </div>'
         html+="</div>"
     html+="</div>"
 
